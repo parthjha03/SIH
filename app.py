@@ -114,7 +114,7 @@ def chat():
         }
 
         payload = {
-            "model": "meta-llama/Llama-3.2-11B-Vision-Instruct",
+            "model": "NousResearch/Hermes-3-Llama-3.1-405B",
             "messages": messages,
             "temperature": 0.4,
             "max_tokens": 400
